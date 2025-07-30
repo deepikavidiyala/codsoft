@@ -1,0 +1,90 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+}
+body {
+  background-color: #f8faff;
+  color: #333;
+  line-height: 1.6;
+}
+#hero{
+    background-color: #4b9cd3;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+#hero h1{
+    font-size: 40px;
+    margin-top: 15px;
+}
+#hero h3{
+    font-size: 20px;
+}
+#hero button{
+    padding:10px 15px;
+    color: #4b9cd3;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#hero button:hover{
+    background-color: #e0f0ff;
+}
+#content {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.feature {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.feature h3 {
+  color: #4b9cd3;
+  margin-bottom: 10px;
+}
+#student{
+    margin: 10px auto;
+    width: 80%;
+    font-style: italic;
+    background-color: #eef6fb;
+    text-align: center;
+}
+#student h2{
+    font-style: normal;
+}
+#work{
+    margin-top: 20px;
+    text-align: center;
+}
+.works{
+    margin-top: 15px;
+}
+#boost{
+    text-align: center;
+    margin-top: 20px;
+}
+#boost p{
+    color: #4b9cd3;
+    font-weight: bold;
+}
+footer{
+    background-color: #333;
+    color: #e0f0ff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 15px;
+}
